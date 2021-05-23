@@ -8,7 +8,7 @@ docker run --rm -v "$PWD:/var/jekyll" -it mrxder/jekyll-docker-arm64:latest jeky
 
 # Jekyll Serve (Develop)
 ```
-docker run --rm -v "$PWD:/var/jekyll" -it -p 4000:4000 mrxder/jekyll-docker-arm64:latest jekyll serve
+docker run --rm -v "$PWD:/var/jekyll" -p 4000:4000 -it mrxder/jekyll-docker-arm64:latest jekyll serve --host=0.0.0.0
 ```
 
 # Build Docker image
