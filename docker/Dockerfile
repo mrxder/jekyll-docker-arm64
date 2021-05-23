@@ -1,9 +1,7 @@
   
 FROM arm64v8/ruby:2.7.3-buster
 
-MAINTAINER mrxder <info@matthias-keim.com>
-
-##### APACHE #######
+MAINTAINER mrxder <matthias@keim.dev>
 
 RUN apt-get update && \
 apt-get install -y build-essential  && \
