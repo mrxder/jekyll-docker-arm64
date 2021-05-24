@@ -1,3 +1,4 @@
+[![[builder] CI for releases](https://github.com/mrxder/jekyll-docker-arm64/actions/workflows/build_deploy.yml/badge.svg)](https://github.com/mrxder/jekyll-docker-arm64/actions/workflows/build_deploy.yml)
 # A minimal Jekyll Docker ARM64 image
 This Docker image/file can be used for development on ARM64 based machines like Macs based on Apple Silicon like the M1 chip.
 
